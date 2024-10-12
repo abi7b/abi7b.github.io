@@ -58,15 +58,14 @@
             <option value="December">December</option>
         </select>
 
-        <select name="year" id="year" required>
-            <option value="">Year</option>
-            <!-- Years from 1900-2024 options -->
-            <script>
-                for (let i = 2024; i >= 1900; i--) {
-                    document.write(`<option value="${i}">${i}</option>`);
-                }
-            </script>
-        </select><br><br>
+        <select name="birthday-year" id="year">
+        <option value="0" selected disabled>Year</option>
+        <option value="2015">2015</option>
+        <option value="2014">2014</option>
+        <option value="2013">2013</option>
+        <option value="2012">2012</option>
+        <option value="2011">2011</option>
+      </select><br><br>
 
         <input type="checkbox" id="terms" name="terms" required>
         <label for="terms">I accept the Terms and Conditions</label><br><br>
