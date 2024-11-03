@@ -1,0 +1,56 @@
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Blog container */
+.blog-container {
+    width: 80%;
+    max-width: 700px;
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #bdc7cf;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Blog posts */
+.post {
+    margin-bottom: 40px;
+}
+
+/* Date styling */
+.date {
+    color: #3098dd;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+/* H2 styling */
+h2 {
+    color: #354b63;
+    font-size: 1.8em;
+    margin: 10px 0;
+}
+
+/* Paragraph styling */
+p {
+    color: #333;
+    line-height: 1.8;
+    font-size: 1em;
+}
+
+/* Horizontal rule styling */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #bdc7cf;
+    margin: 30px 0;
+}

@@ -1,0 +1,49 @@
+
+/* Center body content and apply background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Gallery title styling */
+.gallery-title {
+    font-family: fantasy;
+    font-style: oblique;
+    font-size: 50px;
+    color: #871313;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Gallery container */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Static 3 images per row */
+    gap: 10px;  /* Space between images */
+    max-width: 1000px; /* Constrain gallery width */
+    width: 100%;
+}
+
+/* Gallery item styling */
+.gallery-item {
+    overflow: hidden;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item img {
+    width: 100%; /* Full width within container */
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.gallery-item:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

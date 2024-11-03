@@ -1,0 +1,46 @@
+/* Ensure body has some visible styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Style for the blog container */
+.blog-container {
+    width: 80%;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #bdc7cf;
+}
+
+/* Styling for each post */
+.post {
+    margin-bottom: 20px;
+}
+
+/* Date styling */
+.date {
+    color: #3098dd;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+/* Title styling */
+h2 {
+    color: #354b63;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+/* Horizontal rule styling */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #bdc7cf;
+    margin: 20px 0;
+}
